@@ -58,6 +58,7 @@
 }
 
 .j_container {
+    background-color: aqua;
     width: 650px;
     height: 300px;
 }
@@ -77,10 +78,30 @@
     background-color: rgb(207, 207, 207);
 }
 
+.section_content {
+    display: flex;
+    height: 200px;
+}
+
+.content_txt {
+    width:30%;
+    background-color:rgb(255, 170, 72);
+}
+
+.content_img {
+    width:70%;
+    background-color: rgb(215, 171, 255);
+}
+
+.wide_img {
+    width:100%;
+    background-color: greenyellow;
+}
+
 
 /* # DEBUG----------------------------------- */
 
-.debug {
+/* .debug {
     background-color: aqua;
     padding: 10px;
     border: 1px dotted black;
@@ -100,7 +121,7 @@
 
 .debug .debug .debug .debug .debug {
     background-color: rgb(255, 98, 0);
-}
+} */
 
 
 /* # SPECIFIC DEBUG----------------------------------- */
