@@ -17,11 +17,15 @@
   }
 
 
+/* # HEADER----------------------------------- */
+
+
+
 /* # DEBUG----------------------------------- */
 
 .debug {
     background-color: aqua;
-    margin: 10px;
+    padding: 10px;
     border: 1px dotted black;
 }
 
