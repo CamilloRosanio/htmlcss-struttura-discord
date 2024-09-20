@@ -63,6 +63,21 @@
 }
 
 
+/* # SECTIONS----------------------------------- */
+
+.alternate_rows {
+    padding:20px;
+}
+
+.alternate_rows.odd {
+    background-color: rgb(233, 233, 233);
+}
+
+.alternate_rows.even {
+    background-color: rgb(207, 207, 207);
+}
+
+
 /* # DEBUG----------------------------------- */
 
 .debug {
