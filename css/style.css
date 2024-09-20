@@ -19,6 +19,33 @@
 
 /* # HEADER----------------------------------- */
 
+.header_page >.container {
+    display:flex;
+    align-items: center;
+}
+
+.header_page >.container > .side {
+    display:flex;
+    align-items: center;
+    width:200px;
+}
+
+.logo-container {
+    justify-content: start;
+}
+
+.nav-bar {
+    text-align: center;
+    width: 600px;
+}
+
+.menu_item {
+    display: inline-block
+}
+
+.login-container {
+    justify-content: end;
+}
 
 
 /* # DEBUG----------------------------------- */
@@ -30,7 +57,7 @@
 }
 
 .debug .debug {
-    background-color: rgb(204, 0, 255);
+    background-color: rgb(231, 136, 255);
 }
 
 .debug .debug .debug {
@@ -43,4 +70,16 @@
 
 .debug .debug .debug .debug .debug {
     background-color: rgb(255, 98, 0);
+}
+
+
+/* # SPECIFIC DEBUG----------------------------------- */
+
+.header_page.debug {
+    background-color: rgb(255, 187, 187);
+}
+
+.jumbotron {
+    background-color: blue;
+    padding:10px;
 }
