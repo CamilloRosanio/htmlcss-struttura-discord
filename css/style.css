@@ -48,6 +48,21 @@
 }
 
 
+/* # JUMBOTRON----------------------------------- */
+
+.jumbotron {
+    background-color: blue;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+}
+
+.j_container {
+    width: 650px;
+    height: 300px;
+}
+
+
 /* # DEBUG----------------------------------- */
 
 .debug {
@@ -77,9 +92,4 @@
 
 .header_page.debug {
     background-color: rgb(255, 187, 187);
-}
-
-.jumbotron {
-    background-color: blue;
-    padding:10px;
 }
