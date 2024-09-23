@@ -53,6 +53,14 @@
     justify-content: end;
 }
 
+/* CORREZIONE !!!
+Sbagliato assegnare i px di larghezza perchè poi vincolerebbero tutto il restante contenuto. Molto meglio elementi "relativi" e dinamici.
+
+Per far si che i contenuti del flex occupino tutto il container i larghezza, si può dare "flex-grow: 1", quindi permettergli di crescere.
+
+In combinazione si può usare width: %  assegnata alla flex-basis (cioè mantieni idealmente la grandezza di *tot).
+La larghezza % è assegnata solo agli elementi laterali così che il centro occupi il restante. */
+
 
 /* # JUMBOTRON----------------------------------- */
 
@@ -104,6 +112,14 @@
     background-color: greenyellow;
 }
 
+/* CORREZIONE !!!
+per la larghezza delle due colonne, img e txt, usare la proprietà flex-basis: x% così che si abbian proporzioni ideali, al posto della sola width.
+
+SFONDI ALTERNATI
+Bisognava usare "nth-child odd/even" per alternare automaticamente i colori di sfondo. Ragionando appunto sul contenitore principale del main e le sue sottosezioni.
+
+*/
+
 
 /* # FOOTER----------------------------------- */
 
@@ -142,6 +158,11 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
+
+/* anche qui per le varie larghezze delle colonne avrei dovuto usare flex-basis: x%, cioè come sempre la grandezza "ideale". 
+
+Al posto dei <p> per indicare le multi-colonne, era meglio impiegare direttamente un <div>.
+*/
 
 
 /* # DEBUG----------------------------------- */
